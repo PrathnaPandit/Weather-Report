@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Weather</title>
+   <link rel="stylesheet" type="text/CSS" href="weather.css">
+   <script src="weather.js" defer></script>
+    </head>
+
+<body>
+
+   <div class=" searchbar">
+   <input type="text" class="searchbox" placeholder="type">
+   <button type="button" class="search">Search</button>
+   </div>
+
+<div class="main">
+    <img src="https://ssl.gstatic.com/onebox/weather/64/rain_light.png" alt="Light rain" id="image" class="image">
+    <div class="temperature"><b></b><sup></sup></div> 
+<!-- </div> -->
+
+    <div class="button">
+        <button class="celsius">&deg;C</button>
+        <button class="fahrenheit">&deg;F</button>
+    </div>
+
+    <div class="detail">
+        <ul>
+            <li class="first-block">humidity: </li>
+            <li class="second-block">wind: </li>
+            <li class="third-block">cloud: </li>
+        </ul>
+    </div>
+    
+    <div class="location">
+        <h2></h2>
+        <div>Friday</div>
+        <p></p>
+    </div>
+</div>    
+</body>
+</html>
